@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mine sweeper</title>
+    <h1><span> welcome to mine sweeper</span><span class="timer"> -timer- <label id="minutes">00</label>:<label id="seconds">00</label></span></h1>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body oncontextmenu="return false;" class="bgcImg">
+    <table>
+        <tbody class="mine-board"></tbody>
+        <div class="center">
+            <button data-size="4" data-mines="2" onclick="buttonClicked(this)" class="buttons">begginers</button>
+            <button data-size="8" data-mines="12" onclick="buttonClicked(this)" class="buttons">normal</button>
+            <button data-size="12" data-mines="30" onclick="buttonClicked(this)" class="buttons">expert</button>
+            <button onclick="innit()" class="buttons">restart</button>
+            <div class="images">
+                <span><img src="images/hint.jpg" onclick="hint(this)" id="img1"></span>
+                <span><img src="images/hint.jpg" onclick="hint(this)" id="img2"></span>
+                <span><img src="images/hint.jpg" onclick="hint(this)" id="img3"></span>
+                <span class="smiley"></span>
+            </div>
+        </div>
+    </table>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/features.js"></script>
+</body>
+
+</html>

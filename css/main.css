@@ -1,0 +1,96 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+    ;
+    min-height: 200px;
+    ;
+    border: solid black;
+}
+
+.cell {
+    background-color: rgb(211, 112, 173);
+    padding: 20px;
+    font-size: 46px;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(211, 112, 173);
+}
+
+.emptycell {
+    background-color: goldenrod;
+    padding: 20px;
+    font-size: 40px;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+.marked {
+    background-color: rgb(168, 216, 120);
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+img {
+    cursor: pointer;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.buttons {
+    box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    background-color: #63b8ee;
+    border-radius: 6px;
+    border: 1px solid #3866a3;
+    display: inline-block;
+    cursor: pointer;
+    color: #14396a;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 19px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7cacde;
+}
+
+.buttons:hover {
+    background: linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+    background-color: #468ccf;
+}
+
+.buttons:active {
+    position: relative;
+    top: 1px;
+}
+
+#img1 {
+    border-radius: 6px;
+    border: 3px solid #3866a3;
+}
+
+#img2 {
+    border-radius: 6px;
+    border: 3px solid #3866a3;
+}
+
+#img3 {
+    border-radius: 6px;
+    border: 3px solid #3866a3;
+}
